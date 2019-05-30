@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rXN-Sv-Ytd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Opacity Animation View Controller-->
+        <scene sceneID="RJh-qc-i2f">
+            <objects>
+                <viewController id="rXN-Sv-Ytd" customClass="OpacityAnimationViewController" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fBF-UG-ghO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="jrp-Fi-0wa">
+                                <rect key="frame" x="60" y="120" width="255" height="447"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtV-97-Fuc">
+                                <rect key="frame" x="22" y="20" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2ex-dh-iEL"/>
+                                    <constraint firstAttribute="width" constant="46" id="qNo-MX-YoV"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="btnReturnClick:" destination="rXN-Sv-Ytd" eventType="touchUpInside" id="GNq-fL-9pX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OLB-Hk-XFy" firstAttribute="trailing" secondItem="jrp-Fi-0wa" secondAttribute="trailing" constant="60" id="CDy-wt-9Zo"/>
+                            <constraint firstItem="mtV-97-Fuc" firstAttribute="top" secondItem="OLB-Hk-XFy" secondAttribute="top" id="Fd4-Xs-mMH"/>
+                            <constraint firstItem="mtV-97-Fuc" firstAttribute="leading" secondItem="OLB-Hk-XFy" secondAttribute="leading" constant="22" id="GR4-Qg-Jdd"/>
+                            <constraint firstItem="jrp-Fi-0wa" firstAttribute="top" secondItem="OLB-Hk-XFy" secondAttribute="top" constant="100" id="Jyd-Bb-kXs"/>
+                            <constraint firstItem="jrp-Fi-0wa" firstAttribute="leading" secondItem="OLB-Hk-XFy" secondAttribute="leading" constant="60" id="QRv-fg-TeY"/>
+                            <constraint firstItem="OLB-Hk-XFy" firstAttribute="bottom" secondItem="jrp-Fi-0wa" secondAttribute="bottom" constant="100" id="uV2-Hb-NmW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OLB-Hk-XFy"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="jrp-Fi-0wa" id="f5e-M6-HaT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RU7-xf-aZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="57"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="girl" width="958" height="1140"/>
+    </resources>
+</document>

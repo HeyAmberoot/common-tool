@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jKJ-er-DXa">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Size View Controller-->
+        <scene sceneID="Qbn-wj-bPC">
+            <objects>
+                <viewController id="jKJ-er-DXa" customClass="SizeViewController" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ina-UZ-CSG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="bbq-C2-wiU">
+                                <rect key="frame" x="130" y="280" width="115" height="106"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsS-Ip-8u9">
+                                <rect key="frame" x="22" y="20" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="qh3-Cm-BlP"/>
+                                    <constraint firstAttribute="height" constant="30" id="stG-gy-3Ac"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="btnReturnClick:" destination="jKJ-er-DXa" eventType="touchUpInside" id="qYj-RR-JkZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fsS-Ip-8u9" firstAttribute="top" secondItem="wpa-47-ZY2" secondAttribute="top" id="2gd-04-Tkw"/>
+                            <constraint firstItem="bbq-C2-wiU" firstAttribute="centerX" secondItem="Ina-UZ-CSG" secondAttribute="centerX" id="3gB-Po-vKc"/>
+                            <constraint firstItem="bbq-C2-wiU" firstAttribute="centerY" secondItem="Ina-UZ-CSG" secondAttribute="centerY" id="3lS-U1-8lT"/>
+                            <constraint firstItem="bbq-C2-wiU" firstAttribute="leading" secondItem="wpa-47-ZY2" secondAttribute="leading" constant="130" id="9xg-M1-NRb"/>
+                            <constraint firstItem="fsS-Ip-8u9" firstAttribute="leading" secondItem="wpa-47-ZY2" secondAttribute="leading" constant="22" id="ZI2-PJ-ruG"/>
+                            <constraint firstItem="bbq-C2-wiU" firstAttribute="top" secondItem="wpa-47-ZY2" secondAttribute="top" constant="260" id="mzZ-kC-32W"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wpa-47-ZY2"/>
+                    </view>
+                    <connections>
+                        <outlet property="imagView" destination="bbq-C2-wiU" id="F9i-AN-6cA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yol-hg-cy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="-501"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="girl" width="958" height="1140"/>
+    </resources>
+</document>

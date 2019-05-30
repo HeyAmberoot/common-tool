@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tUQ-0M-ZAf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Path Animation View Controller-->
+        <scene sceneID="j1x-L1-x1Z">
+            <objects>
+                <viewController id="tUQ-0M-ZAf" customClass="PathAnimationViewController" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vwi-mh-YXM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="cOG-Xv-MTQ">
+                                <rect key="frame" x="30" y="80" width="315" height="507"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTe-cW-N3G">
+                                <rect key="frame" x="24" y="20" width="33" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="8z7-dD-9Ev"/>
+                                    <constraint firstAttribute="height" constant="30" id="n2b-FY-3W1"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="btnReturnClick:" destination="tUQ-0M-ZAf" eventType="touchUpInside" id="dNK-6f-Zy4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vTe-cW-N3G" firstAttribute="leading" secondItem="I96-Al-u6s" secondAttribute="leading" constant="24" id="0xb-C4-JpW"/>
+                            <constraint firstItem="cOG-Xv-MTQ" firstAttribute="top" secondItem="vwi-mh-YXM" secondAttribute="top" constant="80" id="GRO-Si-i2b"/>
+                            <constraint firstItem="cOG-Xv-MTQ" firstAttribute="centerY" secondItem="vwi-mh-YXM" secondAttribute="centerY" id="INF-6c-fjq"/>
+                            <constraint firstItem="cOG-Xv-MTQ" firstAttribute="leading" secondItem="vwi-mh-YXM" secondAttribute="leading" constant="30" id="j0z-la-kZ0"/>
+                            <constraint firstItem="cOG-Xv-MTQ" firstAttribute="centerX" secondItem="vwi-mh-YXM" secondAttribute="centerX" id="rpx-SY-70C"/>
+                            <constraint firstItem="vTe-cW-N3G" firstAttribute="top" secondItem="I96-Al-u6s" secondAttribute="top" id="wjR-tF-z0X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="I96-Al-u6s"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnReturn" destination="vTe-cW-N3G" id="p95-Ow-RiK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="omm-tj-s9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557.60000000000002" y="-151.57421289355324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="girl" width="958" height="1140"/>
+    </resources>
+</document>

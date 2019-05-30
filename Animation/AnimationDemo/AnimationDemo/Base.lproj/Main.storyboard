@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnh-0a-7Br">
+                                <rect key="frame" x="107.5" y="80" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NyH-5v-UyX"/>
+                                    <constraint firstAttribute="width" constant="160" id="dkE-IA-YPa"/>
+                                </constraints>
+                                <state key="normal" title="沿路径运动的动画"/>
+                                <connections>
+                                    <action selector="btnPathAnimationClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WVM-cy-aLp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1F-HX-Sch">
+                                <rect key="frame" x="127" y="132" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="QOX-Oq-Hk9"/>
+                                    <constraint firstAttribute="height" constant="30" id="ojh-EA-nxm"/>
+                                </constraints>
+                                <state key="normal" title="逐渐消失的动画"/>
+                                <connections>
+                                    <action selector="btnOpacityClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZnD-TQ-SR3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9d-iA-bnr">
+                                <rect key="frame" x="133" y="184" width="108" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="1B6-Iq-BeC"/>
+                                    <constraint firstAttribute="height" constant="30" id="glh-fe-ZP6"/>
+                                </constraints>
+                                <state key="normal" title="尺寸变化的动画"/>
+                                <connections>
+                                    <action selector="btnSizeClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9LO-JX-mBg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvC-FI-n8O">
+                                <rect key="frame" x="156.5" y="236" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="3yW-He-fBc"/>
+                                    <constraint firstAttribute="height" constant="30" id="Db4-Nf-YaD"/>
+                                </constraints>
+                                <state key="normal" title="雷达动画"/>
+                                <connections>
+                                    <action selector="btnRadarAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0m5-7l-YEe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cnh-0a-7Br" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="0KJ-af-U75"/>
+                            <constraint firstItem="cvC-FI-n8O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9JX-dv-zYr"/>
+                            <constraint firstItem="Cnh-0a-7Br" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Coh-4r-4eD"/>
+                            <constraint firstItem="R1F-HX-Sch" firstAttribute="top" secondItem="Cnh-0a-7Br" secondAttribute="bottom" constant="22" id="Fdj-g6-c7K"/>
+                            <constraint firstItem="cvC-FI-n8O" firstAttribute="top" secondItem="Y9d-iA-bnr" secondAttribute="bottom" constant="22" id="P20-l5-bWQ"/>
+                            <constraint firstItem="R1F-HX-Sch" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wiq-SX-4Pn"/>
+                            <constraint firstItem="Y9d-iA-bnr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cr0-t8-MgS"/>
+                            <constraint firstItem="Y9d-iA-bnr" firstAttribute="top" secondItem="R1F-HX-Sch" secondAttribute="bottom" constant="22" id="s6j-4c-0re"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
