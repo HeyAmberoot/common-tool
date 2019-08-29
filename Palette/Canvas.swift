@@ -1,6 +1,5 @@
 //
 //  Canvas.swift
-//  WisRoomGDiOS
 //
 //  Created by xww on 2019/4/16.
 //  Copyright © 2019年 amberoot. All rights reserved.
