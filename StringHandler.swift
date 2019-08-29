@@ -1,9 +1,8 @@
 //
 //  StringHandler.swift
-//  8BC
 //
 //  Created by xww on 2019/3/20.
-//  Copyright © 2019年 cuanbo. All rights reserved.
+//  Copyright © 2019年 amberoot. All rights reserved.
 //
 
 import Foundation
