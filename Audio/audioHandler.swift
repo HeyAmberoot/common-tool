@@ -3,7 +3,7 @@
 //  8BC
 //
 //  Created by xww on 2019/3/20.
-//  Copyright © 2019年 cuanbo. All rights reserved.
+//  Copyright © 2019年 amberoot. All rights reserved.
 //
 
 import Foundation
@@ -24,7 +24,7 @@ class AudioHandler {
             let baseURL = NSURL(fileURLWithPath: path!)
             //赋值
             AudioServicesCreateSystemSoundID(baseURL, &soundID)
-            //提醒（同上面唯一的一个区别）
+            //
             AudioServicesPlayAlertSound(soundID)
         }
     }
@@ -39,7 +39,7 @@ class AudioHandler {
         }
         //赋值
         AudioServicesCreateSystemSoundID(fileUrl as CFURL, &soundID)
-        //提醒（同上面唯一的一个区别）
+        //
         AudioServicesPlayAlertSound(soundID)
        
     }
