@@ -3,7 +3,7 @@
 //  leanSwift
 //
 //  Created by amberoot on 17/6/27.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 
 //  swift3.0
 
