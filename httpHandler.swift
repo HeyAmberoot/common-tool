@@ -38,11 +38,11 @@ class httpHandler {
     
     
     func uploadFile() {
-        let fileUrl = NSURL(string: "http://www.hangge.com/blog/images/logo.png")!
+        let fileUrl = NSURL(string: "http://www.demo.com/blog/images/logo.png")!
         let fileData = NSData(contentsOf: fileUrl as URL)!
         
         do {
-            let opt = try HTTP.POST("http://www.hangge.com/upload.php",parameters: ["param1": "hangge","file1": Upload(data:fileData as Data, fileName: "logo.png", mimeType: "")])
+            let opt = try HTTP.POST("http://www.demo.com/upload.php",parameters: ["param1": "demo","file1": Upload(data:fileData as Data, fileName: "logo.png", mimeType: "")])
             
             opt.progress = { progress in
                 print("当前进度: \(progress)") //进度是从0到1
