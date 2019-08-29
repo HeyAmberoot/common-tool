@@ -1,6 +1,5 @@
 //
 //  LanguageHelper.swift
-//  IPC
 //
 //  Created by amberoot on 17/8/24.
 //  Copyright © 2017年 amberoot. All rights reserved.
