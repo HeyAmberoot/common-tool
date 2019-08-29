@@ -3,7 +3,7 @@
 //  AnimationDemo
 //
 //  Created by xww on 2019/4/29.
-//  Copyright © 2019年 cuanbo. All rights reserved.
+//  Copyright © 2019年 amberoot. All rights reserved.
 //
 
 import Foundation
