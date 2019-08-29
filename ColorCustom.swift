@@ -40,6 +40,7 @@ class ColorCustom {
     let DarkRed = UIColor.init(red: 139/225, green: 0/225, blue: 0/225, alpha: 1)
     let Maroon = UIColor.init(red: 176/225, green: 48/225, blue: 96/225, alpha: 1)
     let Maroon1 = UIColor.init(red: 255/225, green: 52/225, blue: 179/225, alpha: 1)
+    
     ///Green
     let SpringGreen3 = UIColor.init(red: 42/225, green: 208/225, blue: 105/225, alpha: 1)
     let SpringGreen = UIColor.init(red: 54/225, green: 255/225, blue: 130/225, alpha: 1)
@@ -54,6 +55,7 @@ class ColorCustom {
     let LawnGreen = UIColor.init(red: 124/225, green: 252/225, blue: 0/225, alpha: 1)
     let SeaGreen3 = UIColor.init(red: 67/225, green: 205/225, blue: 128/225, alpha: 1)
     let ForestGreen = UIColor.init(red: 34/225, green: 139/225, blue: 34/225, alpha: 1)
+    
     ///Orange/Yellow
     let Orange1 = UIColor.init(red: 250/225, green: 165/225, blue: 33/225, alpha: 1)
     let DarkOrange3 = UIColor.init(red: 205/225, green: 102/225, blue: 0/225, alpha: 1)
@@ -73,11 +75,13 @@ class ColorCustom {
     let Purple3 = UIColor.init(red: 125/225, green: 38/225, blue: 205/225, alpha: 1)
     let Purple = UIColor.init(red: 160/225, green: 32/225, blue: 240/225, alpha: 1)
     let Plum = UIColor.init(red: 221/225, green: 160/225, blue: 221/225, alpha: 1)
+    
     ///Pink
     let PeachPuff = UIColor.init(red: 252/225, green: 218/225, blue: 186/225, alpha: 1)//桃色
     let DeepPink = UIColor.init(red: 255/225, green: 20/225, blue: 147/225, alpha: 1)
     let HotPink = UIColor.init(red: 255/225, green: 105/225, blue: 180/225, alpha: 1)
     let Thistle1 = UIColor.init(red: 221/225, green: 160/225, blue: 221/225, alpha: 1)
+    
     ///Gray
     let DarkSlateGray = UIColor.init(red: 50/225, green: 79/225, blue: 79/225, alpha: 1)
     let Tan = UIColor.init(red: 210/225, green: 180/225, blue: 140/225, alpha: 1)
