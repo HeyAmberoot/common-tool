@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  CBCont
 //
 //  Created by xww on 2018/6/27.
-//  Copyright © 2018年 cuanbo. All rights reserved.
+//  Copyright © 2018年 amberoot. All rights reserved.
 //
 
 import UIKit
