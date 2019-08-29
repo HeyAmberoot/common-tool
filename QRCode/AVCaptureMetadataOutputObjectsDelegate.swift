@@ -1,9 +1,8 @@
 //
 //  AVCaptureMetadataOutputObjectsDelegate.swift
-//  learnRealm
 //
 //  Created by xww on 2018/11/19.
-//  Copyright © 2018年 cuanbo. All rights reserved.
+//  Copyright © 2018年 amberoot. All rights reserved.
 //
 
 import Foundation
