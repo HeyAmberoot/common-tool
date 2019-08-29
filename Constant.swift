@@ -1,9 +1,8 @@
 //
 //  Constant.swift
-//  IPC
 //
 //  Created by xww on 17/9/27.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 import UIKit
 /////////////////////////全局变量////////////////////////////
