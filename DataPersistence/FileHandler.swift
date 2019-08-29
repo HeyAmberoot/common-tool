@@ -3,7 +3,7 @@
 //  example
 //
 //  Created by xww on 17/8/3.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 
 import Foundation
@@ -36,10 +36,10 @@ class fileHelper {
         
         let url = URL(fileURLWithPath: filePath)
         //获取文件内容
-        let xmlData = try? Data(contentsOf: url)
+        let datas = try? Data(contentsOf: url)
         //print(String(data:xmlData, encoding:String.Encoding.utf8))
-        if xmlData == nil {
-            NSLog("解析XML失败！")
+        if datas == nil {
+            NSLog("读取数据失败！")
             return false
         }
         return true
