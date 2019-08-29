@@ -1,9 +1,8 @@
 //
 //  presentationController.swift
-//  CBMvp
 //
 //  Created by xww on 17/10/17.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 
 import UIKit
