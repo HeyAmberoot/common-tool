@@ -1,9 +1,8 @@
 //
 //  parseJson.swift
-//  CBMvp
 //
 //  Created by xww on 17/10/10.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 
 
