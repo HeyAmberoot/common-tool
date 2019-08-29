@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  Preview
 //
 //  Created by xww on 17/9/9.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 
 import UIKit
