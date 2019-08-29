@@ -3,7 +3,7 @@
 //  http
 //
 //  Created by xww on 17/12/1.
-//  Copyright © 2017年 cuanbo. All rights reserved.
+//  Copyright © 2017年 amberoot. All rights reserved.
 //
 
 import Foundation
